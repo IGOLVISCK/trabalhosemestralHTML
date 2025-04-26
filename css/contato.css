@@ -1,0 +1,30 @@
+.h1-contato{
+    margin-top: 60px;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 0px 80px 15px ;
+}
+
+.inputs{
+    margin-bottom: 20px;
+}
+
+.block-nome_email{
+    display: flex;
+    gap: 20px;
+}
+
+.h2-faleconosco{
+    margin-top: 60px;
+    color: white;
+    display: block;
+}
+
+.tx-faleconosco{
+    margin-bottom: 1px;
+}
+
+.footer-contato{
+    margin-top: 24vh;
+}
