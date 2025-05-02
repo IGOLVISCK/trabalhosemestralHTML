@@ -1,6 +1,40 @@
+@import url(/css/contato.css);
+@import url(/css/saibamais.css);
+
+/*FONTE DOS TITULOS*/
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+/*FONTE DA NAVEGAÇÃO*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cal+Sans&family=Tagesschrift&display=swap');
+/*FONTE DOS TEXTOS*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cal+Sans&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tagesschrift&display=swap');
+
+
+/*VARIAVEIS*/
+:root {
+    --branco--: white;
+    --preto--: black;
+    --background-nav--: rgba(107, 102, 102, 0.582);
+    --background-footer: #2c2929;   
+    --azul--: blue;
+    --azul-hover--: rgb(14, 14, 69);
+    --background-placeholder--: rgba(0, 0, 0, 0.63);
+    --vermelho--: red;
+    --font-titulo--: "Cal Sans", sans-serif;
+    --font-nav--:"Tagesschrift", 'system-ui';
+    --font-texts--: "Playfair Display", serif;
+}
+
+.ancora{
+    font-family: var(--font-nav--);
+}
+
 body{
-    background: #949191;
     margin: 0;
+    background-image: url(/images/background.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 section{
@@ -8,7 +42,7 @@ section{
 }
 
 nav{
-    background-color: rgb(107, 102, 102);
+    background-color: var(--background-nav--);
     padding: 1px 0px;
 }
 
@@ -22,19 +56,17 @@ ul{
 
 a{
     text-decoration: none;
-    color: rgb(255, 247, 247);
+    color: var(--branco--);
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px 50px;
 }
-a:hover{
-    color: black;
-    text-decoration: underline;
-}
+
 
 .h1title{
     margin-top: 60px;
-    color: white;
+    color: var(--branco--);
     text-align: center;
+    font-family: var(--font-titulo--);
 }
 
 /*DISPOSIÇÃO DOS ITENS NA TELA*/
@@ -52,6 +84,10 @@ a:hover{
 
 h4{ /*NOME DO ASSUNTO*/
     margin: 0;
+    color: var(--branco--);
+    background-color: rgb(27, 25, 25);
+    border-radius: 40%;
+    padding: 5px;
 }
 
 .imagem{ /*IMAGENS DOS ASSUNTOS*/
@@ -64,28 +100,34 @@ h4{ /*NOME DO ASSUNTO*/
 }
 
 .saibamaistext{ /* BOTAO SAIBA MAIS*/
+    padding: 5px;
     margin: 0;
-    background-color: blue;
+    background-color: var(--azul--);
     border-radius: 16px;
-    color: white;
+    color: var(--branco--);
 }
 .saibamais{
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
-.saibamais:hover{
-    background-color: rgb(14, 14, 69);
+.saibamaistext:hover{
+    background-color: var(--azul-hover--);
 }
 
-footer{
-    margin-top: 30vh;
+footer {
     position: fixed;
-    color: white;
-    background-color: #2c2929;
+    bottom: 0;
+    left: 0;
     width: 100%;
+    color: var(--branco--);
+    background-color: var(--background-footer);
+    text-align: center;
+    padding: 10px 0;
 }
 
-
+.label-msg{
+    color: var(--branco--);
+}
 
 
