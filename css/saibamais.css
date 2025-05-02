@@ -1,0 +1,21 @@
+.Texto-tema{
+    color: white;
+    background-color: var(--background-placeholder--);
+    padding: 1px;
+    font-family: var(--font-texts--);
+}
+
+.assuntos__block{ /*BLOCK DO NOME DA ASSUNTO + IMAGEM + BOTAO SAIBA MAIS*/
+    display: block;
+    margin: 0;
+    width: 600px;
+    text-align: center;
+    align-items: center;
+}
+
+.saibamais__h1title{
+    margin-top: 20px;
+    color: var(--branco--);
+    text-align: center;
+    font-family: var(--font-titulo--);
+}
