@@ -1,13 +1,19 @@
+
 .h1-contato{
+    font-size: 50px;
     margin-top: 60px;
-    color: white;
+    color: var(--branco--);
     text-align: center;
     display: block;
     margin: 0px 80px 15px ;
+    font-family: var(--font-titulo--);
+    border-color: black;
+    font-weight: 300;
 }
 
 .inputs{
     margin-bottom: 20px;
+    color: var(--branco--);
 }
 
 .block-nome_email{
@@ -17,14 +23,34 @@
 
 .h2-faleconosco{
     margin-top: 60px;
-    color: white;
+    color: var(--branco--);
     display: block;
+    font-family: var(--font-titulo--);
+    font-weight: 400;
 }
 
 .tx-faleconosco{
     margin-bottom: 1px;
+    color: var(--branco--);
 }
 
 .footer-contato{
-    margin-top: 24vh;
+    margin-top: 18vh;
+}
+
+.txAssunto{
+    color: var(--preto--);
+    padding: 0;
+}
+
+.input-nome{
+    background-color: var(--background-placeholder--);
+}
+
+.input-email{
+    background-color: var(--background-placeholder--);
+}
+
+textarea{
+    background-color: var(--background-placeholder--);
 }
