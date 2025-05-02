@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -28,12 +27,12 @@
     <section>
         <form action=""method="post">
             <div class="block-nome_email">
-                <div class="inputs input_nome">
+                <div class="inputs input_nome"> 
                     <label>Nome</label>
                     <input type="text"
                         placeholder="Digite seu nome"
                         maxlenght="50"
-                        name="txNome"/>
+                        name="txNome" class="input-nome"/>
                 </div>
 
                 <div class="inputs input_email">
@@ -41,18 +40,18 @@
                     <input type="email"
                         placeholder="Digite seu E-mail" 
                         maxlength="50"
-                        name="txEmail"/>
+                        name="txEmail" class="input-email"/>
                 </div>
             </div>    
-            <div class="inputs">
+            <div class="inputs input-assunto">
                 <label>Assunto:</label>
-                <input type="radio" name="txAssunto"/>Pessoal
-                <input type="radio" name="txAssunto"/>Manutenção
+                <input  type="radio" name="txAssuntoPessoal"/><a class="txAssunto">Pessoal</a>
+                <input  type="radio" name="txAssuntoManu"/><a class="txAssunto">Manutenção</a>
             </div>
 
             <div class="inputs">
-                <label>Digite aqui sua mensagem:</label>
-                <br><textarea placeholder="Digite aqui"></textarea>
+                <label class="label-msg">Digite aqui sua mensagem:</label>
+                <br><textarea class="placeholder" placeholder="Digite aqui"></textarea>
             </div>
 
             <div class="inputs">
@@ -67,7 +66,7 @@
     </section>
 
     <footer class="footer-contato">
-        <p>&copy;Todos os direitos reservados - 2025</p>
+        <p class="tx_footer">&copy;Todos os direitos reservados - 2025</p>
     </footer>
     
 </body>
