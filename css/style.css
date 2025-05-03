@@ -28,6 +28,10 @@
     font-family: var(--font-nav--);
 }
 
+.logo{
+    width: 250px;
+}
+
 body{
     margin: 0;
     background-image: url(/images/background.avif);
