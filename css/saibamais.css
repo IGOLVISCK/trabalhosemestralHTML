@@ -6,7 +6,7 @@
 }
 
 .assuntos__block{ /*BLOCK DO NOME DA ASSUNTO + IMAGEM + BOTAO SAIBA MAIS*/
-    display: block;
+    display: flex;
     margin: 0;
     width: 600px;
     text-align: center;
